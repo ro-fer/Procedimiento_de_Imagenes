@@ -1,3 +1,4 @@
+%Leo una imagen, la paso a escala de grises y luego le cambio el contraste segun lo que el usario indique
 close all, clear all, clc
 % leo una imagen y la convierto a escala de grises
 [file,dir] = uigetfile('*.bmp;*.jpg;*.png; *.tif'); %filtro para archivos bmp, jpg y png
