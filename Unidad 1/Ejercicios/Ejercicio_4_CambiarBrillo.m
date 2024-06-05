@@ -17,7 +17,7 @@ switch info.ColorType
         I=rgb2gray(Iorig); %convierto de RGB a escala de grises       
 end
 %modifico brillo
-k = input('ingrese k:\n');
+k = input('Ingrese k:\n');
 O = I + k;
 figure
 subplot(2,2,1);
